@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.icon {
+  flex: 0 1 0;
+  cursor: pointer;
+}

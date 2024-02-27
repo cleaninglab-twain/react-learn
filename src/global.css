@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+}
+
+body {
+  overflow-y: scroll;
+  background: #fafafa;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 560px;
+  min-height: 100vh;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 30px 0px;
+  margin: 0 auto;
+}
